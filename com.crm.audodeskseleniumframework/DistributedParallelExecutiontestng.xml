@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="4"  parallel="tests">
+  <test thread-count="5" name="Test runner-1">
+    <classes>
+      <class name="com.crm.autodesk.organizationTest.CreateOrganizationWithIndustryAndTypeTest"/>
+      <class name="com.crm.autodesk.productsTest.SearchProductByProductNameTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test runner-2">
+    <classes>
+      <class name="com.crm.autodesk.campaignTest.CreateCampaignWithProductTest"/>
+      <class name="com.crm.autodesk.productsTest.CreateProductTest"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="Test runner-3">
+    <classes>
+      <class name="com.crm.autodesk.contactTest.CreateContactTest"/>
+      <class name="com.crm.autodesk.contactTest.CreateContactWithOrganizationTest"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="Test runner-4">
+    <classes>
+      <class name="com.crm.autodesk.organizationTest.CreateOrganizationTest"/>
+      <class name="com.crm.autodesk.productsTest.SearchProductByProductNo"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
