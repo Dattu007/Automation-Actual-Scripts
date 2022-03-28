@@ -15,5 +15,4 @@ public class RetryAnalyserImplementationClass implements IRetryAnalyzer {
 		return false;
 	}
 	
-
 }
