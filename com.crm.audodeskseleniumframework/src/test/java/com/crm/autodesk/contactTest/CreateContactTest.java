@@ -9,7 +9,7 @@ import com.crm.audodesk.objectrepository.CreatingNewContactsPage;
 import com.crm.audodesk.objectrepository.HomePage;
 import com.crm.audodeskgenericutility.BaseClass;
 
-@Listeners(com.crm.audodeskgenericutility.ListenerImplementationClass.class)
+//@Listeners(com.crm.audodeskgenericutility.ListenerImplementationClass.class)
 public class CreateContactTest extends BaseClass {
 
 //	(groups="smokeTest", retryAnalyzer=com.crm.audodeskgenericutility.RetryAnalyserImplementationClass.class)
